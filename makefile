@@ -13,6 +13,13 @@ build: ## Build the app
 build-ios: ## Build iOS app
 	flutter build ios
 
+build-ipa: ## Build iOS IPA
+	flutter build ipa --release \
+		--no-codesign \
+		--build-name=0.0.1 \
+		--build-number=1 \
+		--export-options-plist=GoogleService-Info.plist
+
 run: ## Run the app
 	flutter run
 
