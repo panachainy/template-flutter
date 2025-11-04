@@ -35,7 +35,7 @@ doctor: ## Check Flutter setup
 	flutter doctor
 
 upgrade: ## Upgrade Flutter dependencies
-	flutter pub upgrade
+	flutter pub upgrade --major-versions
 
 outdated: ## Check for outdated packages
 	flutter pub outdated
