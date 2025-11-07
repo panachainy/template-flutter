@@ -13,7 +13,7 @@ build: ## Build the app
 build-ios: ## Build iOS app
 	flutter build ios
 
-build-ipa: ## Build iOS IPA
+ipa build-ipa: ## Build iOS IPA
 	flutter build ipa --release \
 		--no-codesign \
 		--build-name=0.0.1 \
